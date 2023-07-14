@@ -10,15 +10,16 @@
 
 int main(void)
 {
-	int i = 48;
+	int i;
+	int m,
 
-	while (i <= 102)
+	for (i = 48; i <= 57; i++)
 	{
 		putchar(i);
-
-		if (i == 57)
-			i += 39;
-		i++,
+	}
+	for (m = 97; m <= 102; m++)
+	{
+		putchar(m);
 	}
 	putchar('\n');
 
