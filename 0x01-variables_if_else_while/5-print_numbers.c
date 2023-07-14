@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Description: print all alphabet in lowercase
+ * Description:  prints all single digit numbers
  *
- * Return: 0 (success)
+ * Return: Always 0 (success)
 */
 
 int main(void)
@@ -17,7 +17,7 @@ int main(void)
 		printf("%d", i);
 		i++;
 	}
-	printf('\n');
+	printf("\n");
 
 	return (0);
 }
