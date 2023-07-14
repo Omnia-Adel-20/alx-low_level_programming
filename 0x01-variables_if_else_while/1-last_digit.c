@@ -5,9 +5,9 @@
 /**
  * main - Entry point
  *
- * Description: print the value of last digit
+ * Description: print the value of last digit of n
  *
- * Return: 0 (Success)
+ * Return: 0 (success)
 */
 
 int main(void)
@@ -16,6 +16,8 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	digit = n % 10;
+
 	if (digit < 6 && digit != 0)
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, digit);
 	else if (digit > 5)
