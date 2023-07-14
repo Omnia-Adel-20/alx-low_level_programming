@@ -10,19 +10,16 @@
 
 int main(void)
 {
-	int i = 48;
-	int m = 97;
+	int n;
+	int m;
 
-	for (i <= 57)
+	for (n = 48; n <= 57; n++)
 	{
-		putchar(i);
-		i++;
+		putchar(n);
 	}
-	for
-		(m <= 102);
+	for (m = 97; m <= 102; m++);
 	{
 		putchar(m);
-		m++;
 	}
 	putchar('\n');
 
