@@ -1,0 +1,13 @@
+se16.c:16:2: error: expected identifier or ‘(’ before ‘for’
+   16 |  for (i = 48; i <= 57; i++)
+      |  ^~~
+8-print_base16.c:16:17: error: statement with no effect [-Werror=unused-value]
+   16 |  for (i = 48; i <= 57; i++)
+      |               ~~^~~~~
+8-print_base16.c:16:27: error: expected ‘;’ before ‘)’ token
+   16 |  for (i = 48; i <= 57; i++)
+      |                           ^
+      |                           ;
+8-print_base16.c:16:27: error: expected statement before ‘)’ token
+cc1: all warnings being treated as errors
+i
