@@ -25,7 +25,8 @@ int main(void)
 
 		if (i < 100)
 			pintf(" ");
+		else
+			pritnf("\n");
 	}
-	pritnf("\n");
 	return (0);
 }
