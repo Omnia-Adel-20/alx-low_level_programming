@@ -3,9 +3,9 @@
 /**
  * main - entry point
  *
- * Description: prints the numbers from 1 to 100
+ * Description: prints the numbers from 1 to 100 by new line
  *
- * Return: Always 0
+ * Return: Always 0 (success)
 */
 
 int main(void)
@@ -15,18 +15,15 @@ int main(void)
 	for (n = 1; n <= 100; n++)
 	{
 		if (n % 3 == 0 && !(n % 5 == 0))
-			printf("Fizz");
+			printf("Fizz ");
 		else if (n % 5 == 0 && !(n % 3 == 0))
-			printf("Buzz");
+			printf("Buzz ");
 		else if (n % 3 == 0 && n % 5 == 0)
-			printf("FizzBuzz");
+			printf("FizzBuzz ");
 		else
-			printf("%d", n);
-
-		if (i != 100)
-			pintf(" ");
-		else
-			pritnf("\n");
+			printf("%d ", n);
 	}
+	pritnf("\n");
+
 	return (0);
 }
