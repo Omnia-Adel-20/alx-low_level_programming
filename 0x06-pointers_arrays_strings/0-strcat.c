@@ -4,7 +4,7 @@
  * *_strcat - function that concatenates two strings
  * @dest: This function appends the src string to the dest string
  * @src: This function appends the src string to the dest string
- * Return: pointer dest
+ * Return: dest
 */
 
 char *_strcat(char *dest, char *src)
@@ -15,8 +15,8 @@ char *_strcat(char *dest, char *src)
 	while (dest[i])
 		i++;
 
-	for (j = 0; src[j]; j++)
-		dest[i] = scr[j];
+	for (j = 0; src[j], j++)
+		dest[i++] = src[j];
 
 	return (dest);
 }
