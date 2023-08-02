@@ -3,6 +3,7 @@
 /**
  * move_past_star - past astrict
  * @s2: second string
+ *
  * Return: the pointer past
 */
 
@@ -18,6 +19,7 @@ char *move_past_star(char *s2)
  * inception - make unique
  * @s1: first sring
  * @s2: second string
+ *
  * Return: 0 or 1
 */
 
@@ -37,6 +39,7 @@ int inception(char *s1, char *s2)
  * wilcmp - compare two string
  * @s1: first string
  * @s2: second string
+ *
  * Return: 0 or 1
 */
 
