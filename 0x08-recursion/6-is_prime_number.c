@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * is_prime_number - input integer prime number
@@ -13,6 +14,13 @@ int is_prime_number(int n)
 {
 	return (help(n, 2));
 }
+
+/**
+ * help - help function
+ * @n: number
+ * @i: int
+ * Return: int
+*/
 
 int help(int n, int i)
 {
