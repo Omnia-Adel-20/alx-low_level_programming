@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * is_palindrome - string is a palindrome
  * last_index - return the last index
- *
  * @s: string
  * Return: int
 */
