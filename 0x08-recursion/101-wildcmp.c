@@ -39,7 +39,7 @@ int inception(char *s1, char *s2)
 }
 
 /**
- * wilcmp - compare two string
+ * wildcmp - compare two string
  * @s1: first string
  * @s2: second string
  *
