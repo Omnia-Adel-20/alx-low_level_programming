@@ -20,7 +20,7 @@ char *move_past_star(char *s2)
  * @s1: first sring
  * @s2: second string
  *
- * Return: 0 or 1
+ * Return: 1 if inentical or 0 if false
 */
 
 int inception(char *s1, char *s2)
@@ -40,7 +40,7 @@ int inception(char *s1, char *s2)
  * @s1: first string
  * @s2: second string
  *
- * Return: 0 or 1
+ * Return: 1 if inentical or 0 if false
 */
 
 int wildcmp(char *s1, char *s2)
